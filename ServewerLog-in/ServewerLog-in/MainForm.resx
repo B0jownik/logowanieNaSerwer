@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="richTextBoxProfileDecription.Text" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet amet esse ullamco magna lorem aliquip magna. Est et enim dolore elit ipsum sunt consequat consequat aliqua pariatur cupidatat aliqua. Ut deserunt ut commodo pariatur elit ut cillum reprehenderit. Culpa duis enim commodo dolor proident anim excepteur sit nostrud nulla eiusmod enim. Ad reprehenderit voluptate veniam et nulla eu nulla consequat occaecat dolor deserunt.</value>
+  </data>
 </root>

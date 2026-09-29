@@ -2,9 +2,10 @@ C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\Ser
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\bin\Debug\ServewerLog-in.exe
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\bin\Debug\ServewerLog-in.pdb
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.csproj.AssemblyReference.cache
-C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.Form1.resources
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.Properties.Resources.resources
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.csproj.GenerateResource.cache
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.csproj.CoreCompileInputs.cache
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.exe
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.pdb
+C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.LoginForm.resources
+C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.MainForm.resources
