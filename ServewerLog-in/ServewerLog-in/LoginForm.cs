@@ -26,14 +26,19 @@ namespace ServewerLog_in
                 var main = new MainForm(this);
                 main.Show();
                 this.Hide();
+                ResetTextBoxes();
             }
             else
             {
                 labelWrongAnnouncer.Text = "Podany email lub hasło jest niepoprawny";
+                ResetTextBoxes();
             }
         }
-
-
+        private void ResetTextBoxes()
+        {
+            textBoxEmail.Text = string.Empty;
+            textBoxHaslo.Text = string.Empty;
+        }
         private void pictureBoxClose_Click(object sender, EventArgs e)
         {
             this.Close();
