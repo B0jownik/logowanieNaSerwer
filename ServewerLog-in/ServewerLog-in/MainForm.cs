@@ -19,7 +19,7 @@ namespace ServewerLog_in
             InitializeComponent();
             _loginForm = loginForm;
         }
-        private void btnLogout_Click(object sender, EventArgs e)
+        private void buttonLogOut_Click(object sender, EventArgs e)
         {
             _loggingOut = true;
             _loginForm.Show();
@@ -35,7 +35,7 @@ namespace ServewerLog_in
 
         private void pictureBoxClose_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Application.Exit();
         }
 
         private void pictureBoxMaximise_Click(object sender, EventArgs e)

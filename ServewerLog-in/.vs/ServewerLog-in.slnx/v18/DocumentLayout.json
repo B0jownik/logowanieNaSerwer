@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|c:\\users\\jan\\desktop\\projekty\\zadaniazgitem\\logowanienaserwer\\servewerlog-in\\servewerlog-in\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|c:\\users\\jan\\desktop\\projekty\\zadaniazgitem\\logowanienaserwer\\servewerlog-in\\servewerlog-in\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\loginform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|solutionrelative:servewerlog-in\\loginform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D2846B2-0ECB-4011-8367-F6FA16085ED9}|ServewerLog-in\\ServewerLog-in.csproj|C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\servewerlog-in\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,35 +50,37 @@
               "RelativeToolTip": "ServewerLog-in\\MainForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:33:26.203Z"
+              "WhenOpened": "2026-09-29T09:33:26.203Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.cs",
               "DocumentMoniker": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\MainForm.cs",
               "RelativeDocumentMoniker": "ServewerLog-in\\MainForm.cs",
               "ToolTip": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\MainForm.cs",
               "RelativeToolTip": "ServewerLog-in\\MainForm.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAIwBMAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T09:33:26.13Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "MainForm.cs [Projekt]",
               "DocumentMoniker": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\MainForm.cs",
               "RelativeDocumentMoniker": "ServewerLog-in\\MainForm.cs",
               "ToolTip": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\MainForm.cs [Projekt]",
               "RelativeToolTip": "ServewerLog-in\\MainForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T09:32:57.621Z"
+              "WhenOpened": "2026-09-29T09:32:57.621Z",
+              "EditorCaption": " [Projekt]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoginForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\LoginForm.Designer.cs",
               "RelativeDocumentMoniker": "ServewerLog-in\\LoginForm.Designer.cs",
@@ -91,13 +93,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "LoginForm.cs",
               "DocumentMoniker": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\LoginForm.cs",
               "RelativeDocumentMoniker": "ServewerLog-in\\LoginForm.cs",
               "ToolTip": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\LoginForm.cs",
               "RelativeToolTip": "ServewerLog-in\\LoginForm.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAowCkAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-29T07:35:40.171Z",
               "EditorCaption": ""
@@ -111,8 +113,7 @@
               "ToolTip": "C:\\Users\\Jan\\Desktop\\projekty\\zadaniaZGitem\\logowanieNaSerwer\\ServewerLog-in\\ServewerLog-in\\LoginForm.cs [Projekt]",
               "RelativeToolTip": "ServewerLog-in\\LoginForm.cs [Projekt]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-29T07:34:45.407Z",
-              "EditorCaption": " [Projekt]"
+              "WhenOpened": "2026-09-29T07:34:45.407Z"
             }
           ]
         }
