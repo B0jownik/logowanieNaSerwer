@@ -157,6 +157,7 @@
             this.Controls.Add(this.groupBoxControlButtons);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "MainForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Nazwa Profilu";
             this.groupBoxControlButtons.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaximise)).EndInit();
