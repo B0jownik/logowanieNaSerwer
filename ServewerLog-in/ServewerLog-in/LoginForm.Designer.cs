@@ -38,9 +38,9 @@
             this.labelPodajEmail = new System.Windows.Forms.Label();
             this.labelPodajHaslo = new System.Windows.Forms.Label();
             this.panelLogin = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
             this.buttonFinish = new System.Windows.Forms.Button();
             this.labelWrongAnnouncer = new System.Windows.Forms.Label();
+            this.buttonTest = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinimise)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaximise)).BeginInit();
@@ -154,19 +154,10 @@
             this.panelLogin.Controls.Add(this.labelPodajHaslo);
             this.panelLogin.Controls.Add(this.textBoxEmail);
             this.panelLogin.Controls.Add(this.textBoxHaslo);
-            this.panelLogin.Location = new System.Drawing.Point(222, 134);
+            this.panelLogin.Location = new System.Drawing.Point(111, 139);
             this.panelLogin.Name = "panelLogin";
             this.panelLogin.Size = new System.Drawing.Size(393, 170);
             this.panelLogin.TabIndex = 12;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(362, 370);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // buttonFinish
             // 
@@ -189,12 +180,23 @@
             this.labelWrongAnnouncer.TabIndex = 14;
             this.labelWrongAnnouncer.Text = "    ";
             // 
-            // Form1
+            // buttonTest
+            // 
+            this.buttonTest.Location = new System.Drawing.Point(624, 285);
+            this.buttonTest.Name = "buttonTest";
+            this.buttonTest.Size = new System.Drawing.Size(75, 23);
+            this.buttonTest.TabIndex = 15;
+            this.buttonTest.Text = "test";
+            this.buttonTest.UseVisualStyleBackColor = true;
+            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
+            // 
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonTest);
             this.Controls.Add(this.labelWrongAnnouncer);
             this.Controls.Add(this.buttonFinish);
             this.Controls.Add(this.panelLogin);
@@ -202,7 +204,7 @@
             this.Controls.Add(this.label_Logowanie);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "Form1";
+            this.Name = "LoginForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).EndInit();
@@ -228,9 +230,9 @@
         private System.Windows.Forms.Label labelPodajEmail;
         private System.Windows.Forms.Label labelPodajHaslo;
         private System.Windows.Forms.Panel panelLogin;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button buttonFinish;
         private System.Windows.Forms.Label labelWrongAnnouncer;
+        private System.Windows.Forms.Button buttonTest;
     }
 }
 

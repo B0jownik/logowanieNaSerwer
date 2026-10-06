@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net.Http;
 
 namespace ServewerLog_in
 {
@@ -14,10 +15,25 @@ namespace ServewerLog_in
     {
         string email = "a@gmail.com";
         string password = "1234";
+        private static readonly HttpClient client = new HttpClient();
         public LoginForm()
         {
             InitializeComponent();
         }
+
+        private async void buttonTest_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string odpowiedz = await client.GetStringAsync("https://api.54-36-162-208.sslip.io");
+                MessageBox.Show(odpowiedz);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Błąd: " + ex.Message);
+            }
+        }
+
         private void buttonFinish_Click(object sender, EventArgs e)
         {
             labelWrongAnnouncer.Text = string.Empty;
