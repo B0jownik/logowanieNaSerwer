@@ -14,22 +14,46 @@ namespace ServewerLog_in
     {
         private LoginForm _loginForm;
         private bool _loggingOut = false;
-        public MainForm(LoginForm loginForm)
+        public MainForm(LoginForm loginForm, Profile profile)
         {
             InitializeComponent();
             _loginForm = loginForm;
+            textBoxProfileName.MaxLength = 80;               // server limit
+            richTextBoxProfileDecription.MaxLength = 280;    // server limit
+            textBoxProfileName.Text = profile.DisplayName;
+            richTextBoxProfileDecription.Text = profile.Bio;
         }
-        private void buttonLogOut_Click(object sender, EventArgs e)
+
+        private async void buttonSave_Click(object sender, EventArgs e)
         {
+            try
+            {
+                await ApiClient.UpdateProfileAsync(textBoxProfileName.Text, richTextBoxProfileDecription.Text);
+                MessageBox.Show("Zapisano");
+            }
+            catch (ApiException ex) when (ex.Status == System.Net.HttpStatusCode.Unauthorized)
+            {
+                MessageBox.Show("Sesja wygasła, zaloguj się ponownie.");
+                buttonLogOut_Click(sender, e);
+            }
+            catch (Exception ex) { MessageBox.Show("Błąd: " + ex.Message); }
+        }
+
+        private async void buttonLogOut_Click(object sender, EventArgs e)
+        {
+            await ApiClient.LogoutAsync();    // invalidates the session on the server
             _loggingOut = true;
             _loginForm.Show();
             this.Close();
         }
 
-        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
+        private async void MainForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (!_loggingOut)
+            {
+                await ApiClient.LogoutAsync();
                 Application.Exit();
+            }
         }
 
 

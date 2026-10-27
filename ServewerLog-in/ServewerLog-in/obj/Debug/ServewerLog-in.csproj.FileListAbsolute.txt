@@ -9,3 +9,6 @@ C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\Ser
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog-in.pdb
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.LoginForm.resources
 C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\ServewerLog_in.MainForm.resources
+C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Jan\Desktop\projekty\zadaniaZGitem\logowanieNaSerwer\ServewerLog-in\ServewerLog-in\obj\Debug\Servewer.517DF4D7.Up2Date

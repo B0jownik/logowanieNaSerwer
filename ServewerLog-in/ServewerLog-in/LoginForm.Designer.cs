@@ -40,7 +40,6 @@
             this.panelLogin = new System.Windows.Forms.Panel();
             this.buttonFinish = new System.Windows.Forms.Button();
             this.labelWrongAnnouncer = new System.Windows.Forms.Label();
-            this.buttonTest = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMinimise)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaximise)).BeginInit();
@@ -180,23 +179,12 @@
             this.labelWrongAnnouncer.TabIndex = 14;
             this.labelWrongAnnouncer.Text = "    ";
             // 
-            // buttonTest
-            // 
-            this.buttonTest.Location = new System.Drawing.Point(624, 285);
-            this.buttonTest.Name = "buttonTest";
-            this.buttonTest.Size = new System.Drawing.Size(75, 23);
-            this.buttonTest.TabIndex = 15;
-            this.buttonTest.Text = "test";
-            this.buttonTest.UseVisualStyleBackColor = true;
-            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
-            // 
             // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.buttonTest);
             this.Controls.Add(this.labelWrongAnnouncer);
             this.Controls.Add(this.buttonFinish);
             this.Controls.Add(this.panelLogin);
@@ -232,7 +220,6 @@
         private System.Windows.Forms.Panel panelLogin;
         private System.Windows.Forms.Button buttonFinish;
         private System.Windows.Forms.Label labelWrongAnnouncer;
-        private System.Windows.Forms.Button buttonTest;
     }
 }
 

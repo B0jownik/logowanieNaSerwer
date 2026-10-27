@@ -37,6 +37,7 @@
             this.richTextBoxProfileDecription = new System.Windows.Forms.RichTextBox();
             this.buttonLogOut = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.buttonSave = new System.Windows.Forms.Button();
             this.groupBoxControlButtons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxMaximise)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxClose)).BeginInit();
@@ -126,6 +127,7 @@
             this.buttonLogOut.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.buttonLogOut.FlatAppearance.BorderSize = 0;
             this.buttonLogOut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonLogOut.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.buttonLogOut.Location = new System.Drawing.Point(82, 345);
             this.buttonLogOut.Name = "buttonLogOut";
             this.buttonLogOut.Size = new System.Drawing.Size(208, 49);
@@ -144,12 +146,28 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
+            // buttonSave
+            // 
+            this.buttonSave.BackColor = System.Drawing.Color.Bisque;
+            this.buttonSave.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonSave.FlatAppearance.BorderSize = 0;
+            this.buttonSave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonSave.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonSave.Location = new System.Drawing.Point(339, 345);
+            this.buttonSave.Name = "buttonSave";
+            this.buttonSave.Size = new System.Drawing.Size(150, 49);
+            this.buttonSave.TabIndex = 13;
+            this.buttonSave.Text = "Zapisz zmiany";
+            this.buttonSave.UseVisualStyleBackColor = false;
+            this.buttonSave.Click += new System.EventHandler(this.buttonSave_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonSave);
             this.Controls.Add(this.buttonLogOut);
             this.Controls.Add(this.richTextBoxProfileDecription);
             this.Controls.Add(this.textBoxProfileName);
@@ -179,5 +197,6 @@
         private System.Windows.Forms.TextBox textBoxProfileName;
         private System.Windows.Forms.RichTextBox richTextBoxProfileDecription;
         private System.Windows.Forms.Button buttonLogOut;
+        private System.Windows.Forms.Button buttonSave;
     }
 }

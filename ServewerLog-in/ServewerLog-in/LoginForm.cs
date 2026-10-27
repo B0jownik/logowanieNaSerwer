@@ -7,47 +7,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Net;
 using System.Net.Http;
 
 namespace ServewerLog_in
 {
     public partial class LoginForm : Form
     {
-        string email = "a@gmail.com";
-        string password = "1234";
         private static readonly HttpClient client = new HttpClient();
         public LoginForm()
         {
             InitializeComponent();
         }
 
-        private async void buttonTest_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                string odpowiedz = await client.GetStringAsync("https://api.54-36-162-208.sslip.io");
-                MessageBox.Show(odpowiedz);
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Błąd: " + ex.Message);
-            }
-        }
-
-        private void buttonFinish_Click(object sender, EventArgs e)
+        private async void buttonFinish_Click(object sender, EventArgs e)
         {
             labelWrongAnnouncer.Text = string.Empty;
-            if (textBoxEmail.Text == email && textBoxHaslo.Text == password)
+            buttonFinish.Enabled = false;
+            try
             {
-                var main = new MainForm(this);
-                main.Show();
+                var profile = await ApiClient.LoginAsync(textBoxEmail.Text.Trim(), textBoxHaslo.Text);
+                new MainForm(this, profile).Show();
                 this.Hide();
-                ResetTextBoxes();
             }
-            else
+            catch (ApiException ex) when (ex.Status == HttpStatusCode.Unauthorized)
             {
                 labelWrongAnnouncer.Text = "Podany email lub hasło jest niepoprawny";
+            }
+            catch (Exception)
+            {
+                labelWrongAnnouncer.Text = "Brak połączenia z serwerem";
+            }
+            finally
+            {
                 ResetTextBoxes();
+                buttonFinish.Enabled = true;
             }
         }
         private void ResetTextBoxes()
